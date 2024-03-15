@@ -1,0 +1,40 @@
+/* Background Colors */
+.bg-black {background-color: #000;}
+.bg-blue {background-color: #0000ff;}
+
+/* Text Colors */
+.text-white {color: #fff;}
+.text-red {color: #ff0000;}
+
+/* Padding */
+.p-10 {padding: 10px;}
+
+/* Position */
+
+.p-absolute {position: absolute;}
+.lr-0 {left: 0; right: 0;}
+.b-0 {bottom: 0;}
+
+.f-right {float: right;}
+
+/* Text properties */
+
+.text-bold {font-weight: bold }
+.text-underline {text-decoration: underline }
+.text-center { text-align: center }
+.text-xlarge{font-size: x-large}
+
+.col {display: flex; flex-direction: column;}
+.row {display: flex; flex-direction: row;}
+
+.space-between {justify-content: space-between;}
+
+.w-100 {width: 100%;}
+.w-50 {width: 50%;}
+.w-45 {width: 45%;}
+
+.h-20px {height: 20px;}
+
+.m-auto {margin: auto;}
+
+.mb-50 {margin-bottom: 50px;}

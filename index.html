@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="atomic.css">
+    <title>Title</title>
+</head>
+<body>
+<main class="bg-blue">
+    <h1 class="text-center text-bold text-underline">Formulaire de demande de stage</h1>
+    <form class="col w-50 m-auto">
+        <div class="row space-between mb-50">
+            <div class="col w-45">
+                <label for="name"  class="text-xlarge">Nom<a class="text-red">*</a> :</label>
+                <input id="name" class="h-20px" required />
+            </div>
+            <div class="col w-45">
+                <label for="firstname" class="text-xlarge">Prénom<a class="text-red">*</a> :</label>
+                <input id="firstname" class="h-20px" required />
+            </div>
+        </div>
+        <div class="row space-between mb-50">
+            <div class="col col w-45">
+                <label for="email" class="text-xlarge">Mail<a class="text-red">*</a> :</label>
+                <input id="email" type="email" class="h-20px" required />
+            </div>
+            <div class="col col w-45">
+                <label for="phone" class="text-xlarge">Téléphone<a class="text-red">*</a> : </label>
+                <input id="phone" type="number" class="h-20px" required />
+            </div>
+        </div>
+        <div class="w-100 mb-50">
+            <label for="CV" class="text-xlarge">CV<a class="text-red">*</a> :</label>
+            <input type="file" id="CV" required />
+        </div>
+        <div class="mb-50">
+            <label for="lm" class="text-xlarge">Lettre de motivation<a class="text-red">*</a> : </label>
+            <textarea id="lm" placeholder="Montrez votre motivation et vos compétences..."></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Envoyer">
+        </div>
+    </form>
+</main>
+<footer class="p-absolute bg-black b-0 lr-0">
+    <p class="text-white p-10 f-right">&copy; 2024 SMC Corp. Tous droits réservés.</p>
+</footer>
+</body>
+</html>
