@@ -1,6 +1,6 @@
 /* Background Colors */
 .bg-black {background-color: #000;}
-.bg-blue {background-color: #0000ff;}
+.bg-grey {background-color: #808080;}
 
 /* Text Colors */
 .text-white {color: #fff;}
@@ -8,6 +8,7 @@
 
 /* Padding */
 .p-10 {padding: 10px;}
+.pt-100 {padding-top: 100px;}
 
 /* Position */
 
@@ -38,3 +39,51 @@
 .m-auto {margin: auto;}
 
 .mb-50 {margin-bottom: 50px;}
+
+
+.btn-validate {
+    background-color: #4CAF50; /* Couleur de fond verte */
+    border: none; /* Pas de bordure */
+    color: white; /* Texte blanc */
+    padding: 15px 32px; /* Espacement interne */
+    text-align: center; /* Texte centré */
+    text-decoration: none; /* Pas de soulignement */
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; /* Change le curseur en main lors du survol */
+    transition-duration: 0.4s; /* Durée de la transition */
+}
+
+/* Styles pour le bouton "Valider" lors du survol */
+.btn-validate:hover {
+    background-color: #45a049; /* Change la couleur de fond lors du survol */
+}
+
+/* Styles pour le bouton "Valider" lorsqu'il est activé */
+.btn-validate:active {
+    background-color: #3e8e41; /* Change la couleur de fond lorsqu'il est activé */
+    box-shadow: 0 5px #666; /* Ajoute une ombre */
+    transform: translateY(4px); /* Déplace légèrement le bouton vers le bas */
+}
+
+.btn-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.wfull-textarea {
+    width: 100%;
+}
+
+.h150-textarea {
+    height: 150px;
+}
+
+.input-file-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

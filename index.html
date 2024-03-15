@@ -5,10 +5,14 @@
     <link rel="stylesheet" href="atomic.css">
     <title>Title</title>
 </head>
-<body>
-<main class="bg-blue">
-    <h1 class="text-center text-bold text-underline">Formulaire de demande de stage</h1>
-    <form class="col w-50 m-auto">
+<body >
+<header class="">
+    <div class=" col w-50 m-auto bg-grey">
+        <h1 class="text-center text-bold text-underline">Formulaire de demande de stage</h1>
+    </div>
+</header>
+<main>
+    <form class="pt-100 col w-50 m-auto">
         <div class="row space-between mb-50">
             <div class="col w-45">
                 <label for="name"  class="text-xlarge">Nom<a class="text-red">*</a> :</label>
@@ -29,16 +33,16 @@
                 <input id="phone" type="number" class="h-20px" required />
             </div>
         </div>
-        <div class="w-100 mb-50">
+        <div class=" row space-between w-100 mb-50">
             <label for="CV" class="text-xlarge">CV<a class="text-red">*</a> :</label>
-            <input type="file" id="CV" required />
+            <input class="input-file-center" type="file" id="CV" required />
         </div>
         <div class="mb-50">
             <label for="lm" class="text-xlarge">Lettre de motivation<a class="text-red">*</a> : </label>
-            <textarea id="lm" placeholder="Montrez votre motivation et vos compétences..."></textarea>
+            <textarea class="wfull-textarea h150-textarea" id="lm" placeholder="Montrez votre motivation et vos compétences..."></textarea>
         </div>
         <div>
-            <input type="submit" value="Envoyer">
+            <input type="submit" value="Envoyer" class="btn-validate btn-center">
         </div>
     </form>
 </main>
